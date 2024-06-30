@@ -1,4 +1,41 @@
 #root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 203px 190px;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 20px 70px;
+  width: 1372px;
+  height: 94vh;
+}
+
+.book {
+  border: 1px solid #000000;
+  border-radius: 3px 10px 10px 3px;
+}
+
+#annotate {
+  width: 500px;
+  margin: 203px 0px;
+}
+
+#enter {
+  position: absolute;
+  bottom: 35%;
+  right: 0;
+  margin-right: 115px;
+  border: none;
+  padding: 20px;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +76,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
