@@ -13,7 +13,7 @@ h1 {
   justify-content: space-around;
   margin: 20px 70px;
   width: 1372px;
-  height: 94vh;
+  height: 90vh;
 }
 
 .book {
@@ -33,6 +33,10 @@ h1 {
   margin-right: 115px;
   border: none;
   padding: 20px;
+}
+
+.footer {
+  text-align: center;
 }
 
 /* #root {
